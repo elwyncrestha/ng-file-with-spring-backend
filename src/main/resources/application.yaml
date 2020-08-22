@@ -1,0 +1,9 @@
+file:
+  upload:
+    drive: C://
+    dir: ng-file-with-spring
+    path: ${file.upload.drive}${file.upload.dir}/
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
